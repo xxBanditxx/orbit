@@ -1,5 +1,8 @@
 # orbit
 A four-fundamental operating discipline for intelligence under uncertainty.
+
+Orbit allows non-resolution without paralysis. 
+
 # ORBIT
 
 **ORBIT** is a four-fundamental operating discipline for reasoning, learning, and decision-making under uncertainty.
