@@ -85,3 +85,12 @@ All critique, stress-testing, and implementation attempts are welcome.
 The framework itself assumes it may be incomplete.
 
 "And yes I used AI to help me. This is a new adventure in my life and I am far from perfect at doing any of this. Thanks for your time and patience."   - xxBanditxx
+
+MIT License
+
+Copyright (c) 2025 xxBanditxx
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction...
+(Use a full MIT template if you choose MIT.)
