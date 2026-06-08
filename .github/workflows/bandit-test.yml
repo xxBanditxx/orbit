@@ -1,0 +1,16 @@
+name: Bandit Test
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Confirm workflow is alive
+        run: echo "Bandit Motors / Orbit workflow is alive"
