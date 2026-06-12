@@ -19,6 +19,16 @@ ORBIT is a *governor* that constrains how intelligence—human or artificial—m
 
 ---
 
+## Core Insight
+
+Humans do not respond only to symbols themselves. We respond through the observer: the perception, context, memory, association, and pattern-recognition process that gives those symbols meaning. A logo, a face, a shape, or a word can remain unchanged while the observer discovers an entirely different relationship inside it.
+
+AI faces a parallel problem. Language is the symbol layer, but intelligence is shaped by the approach to language: how context is held, how patterns are weighted, how uncertainty is preserved, and how conclusions are formed and revised.
+
+ORBIT is aimed at that lower layer of operation. It does not merely ask what the symbols say. It asks how the system is looking at them.
+
+---
+
 ## The Four Fundamentals
 
 ### 1. Contextual Sanity
