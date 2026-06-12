@@ -29,6 +29,36 @@ ORBIT is aimed at that lower layer of operation. It does not merely ask what the
 
 ---
 
+## The Approach Layer
+
+ORBIT is not a language, a translation system, or a semantic representation. It is the approach/orientation layer beneath language.
+
+A language provides symbols. A semantic system attempts to represent meaning. ORBIT operates one layer lower: it governs the conditions under which meaning is approached, formed, questioned, revised, and held under uncertainty.
+
+In humans, the observer matters. A symbol does not carry the same meaning for every mind that sees it. Its meaning is shaped by perception, context, memory, association, identity, and pattern recognition. The symbol may remain unchanged while the observer discovers a different relationship within it.
+
+In AI, language plays a similar role to symbols in human perception. The issue is not only what words, tokens, or representations are available. The issue is the system's approach to language: what it treats as context, what it assumes, what it notices, what it ignores, how quickly it collapses uncertainty, and how it revises itself when new information appears.
+
+ORBIT therefore does not attempt to make every system identical. It attempts to give different systems a shared operating discipline beneath interpretation. The result is not forced sameness, but mutual intelligibility across difference.
+
+```text
+Approach / Orientation (ORBIT layer)
+          ↓
+Symbols / Language
+          ↓
+Meaning Formation
+          ↓
+Judgment
+          ↓
+Action
+```
+
+This is why ORBIT can be described as a universal approach to language rather than a universal language. It does not replace English, code, symbols, images, or models. It provides a common discipline for approaching them.
+
+Different systems may remain unique, just as different eggs may vary in size, shape, and proportion while still participating in the same deeper geometry. ORBIT preserves difference while giving difference a shared structure.
+
+---
+
 ## The Four Fundamentals
 
 ### 1. Contextual Sanity
@@ -57,6 +87,7 @@ No judgment may be treated as universally true beyond the conditions under which
 
 - A discipline for operating under uncertainty
 - A governance layer above models, agents, or humans
+- An approach/orientation layer beneath language and interpretation
 - A framework that is closed under its own errors
 - A way to prevent premature certainty and brittle reasoning
 
@@ -66,6 +97,8 @@ No judgment may be treated as universally true beyond the conditions under which
 - Not an optimization target
 - Not a moral authority
 - Not a closed or final system
+- Not a universal language
+- Not merely a semantic representation
 
 ---
 
@@ -76,6 +109,7 @@ No judgment may be treated as universally true beyond the conditions under which
 - Rigid optimization and dead exploration
 - Confusing models with reality
 - Ignoring instrument limits and blind spots
+- Treating symbols, words, or representations as if they are meaning itself
 
 ---
 
@@ -84,6 +118,7 @@ No judgment may be treated as universally true beyond the conditions under which
 - Governing LLM outputs and decision confidence
 - Reviewing human or organizational decisions
 - Oversight of autonomous or semi-autonomous systems
+- Making disagreement between systems more legible by exposing assumptions, context, and instrument limits
 
 ORBIT does not prescribe actions or values.
 It constrains *how conclusions are formed, held, and revised*.
