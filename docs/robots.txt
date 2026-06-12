@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://xxbanditxx.github.io/orbit/sitemap.xml
