@@ -305,6 +305,7 @@ binds judgment to context, and records what would justify revision.
             wrap=True,
             label="Pressure queue",
         )
+        pressure_api_button = gr.Button("Refresh pressure queue")
 
     with gr.Tab("Query Orbit"):
         query_text = gr.Textbox(
@@ -430,6 +431,20 @@ Chat ingestion will arrive after the governor core and will preserve that distin
         lambda: (overview_markdown(), deck_rows(), queue_rows()),
         inputs=[],
         outputs=[overview, deck_table, pressure_table],
+        api_name=False,
+    )
+
+    pressure_api_button.click(
+        orbit_pressure_queue,
+        inputs=[],
+        outputs=[pressure_table],
+        api_name="orbit_pressure_queue",
+    )
+
+    source_type.change(
+        default_reliability,
+        inputs=[source_type],
+        outputs=[reliability],
         api_name=False,
     )
 
