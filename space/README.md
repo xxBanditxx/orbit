@@ -6,7 +6,7 @@ colorTo: green
 sdk: gradio
 sdk_version: 6.18.0
 python_version: "3.11"
-app_file: app.py
+app_file: launcher.py
 short_description: A provenance-aware governor for reasoning under uncertainty.
 pinned: true
 tags:
@@ -30,6 +30,7 @@ Orbit is a governor for reasoning under uncertainty. It does not store polished 
 - Revisable confidence: confidence grows with evidence mass and falls under contradiction.
 - Decision gate: action thresholds scale with stakes, reversibility, and time pressure.
 - MCP-ready tools: agents can query, inspect, record evidence, evaluate action thresholds, and export snapshots.
+- Private bucket memory: Orbit restores its graph at startup and syncs after every recorded change.
 
 ## Core distinction
 
@@ -37,15 +38,25 @@ Orbit is a governor for reasoning under uncertainty. It does not store polished 
 
 Orbit keeps those statements separate.
 
+## Durable memory configuration
+
+Set these on the Space:
+
+- Secret: `HF_TOKEN`
+- Variable: `ORBIT_BUCKET_ID=xxbanditxx/orbit-memory`
+- Optional variable: `ORBIT_BUCKET_PATH=beliefs.json`
+
+The launcher refuses to overwrite the remote graph when startup could not read the bucket successfully.
+
 ## Current scope
 
-This is the governor core. Automatic chat ingestion and claim extraction are intentionally deferred until the evidence schema and revision behavior are stable.
+Automatic chat ingestion and claim extraction are intentionally deferred until the evidence schema and revision behavior are stable.
 
 ## Local run
 
 ```bash
 python -m pip install -r requirements.txt
-python app.py
+python launcher.py
 ```
 
 The MCP endpoint is exposed by Gradio when the app launches with `mcp_server=True`.
